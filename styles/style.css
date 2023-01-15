@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(117, 107, 107);
+    
     font-family: 'Work Sans', sans-serif;
 }
 header{
@@ -196,7 +196,7 @@ nav ul li a{
  ----------------------------------*/
 @media screen and (max-width:577px){
     header{
-       
+        width: 100%;
         height: auto;
         background-color: #fff;
     }
