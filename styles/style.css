@@ -237,6 +237,9 @@ nav ul li a{
     .explain-text > h1, p, button{
         margin-bottom: 10px;
     }
+    .explain-text{
+        width: 100%;
+    }
     .explain-text button{
       position: relative;
       left: 35%;
@@ -272,7 +275,7 @@ nav ul li a{
        flex-direction: column-reverse;
         align-items: center;
         gap: 30px;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         margin-top: 80px;
         margin-bottom: 80px;
@@ -283,6 +286,10 @@ nav ul li a{
     .data-section table td{
         padding: 20px;
         
+    }
+    .our-company-data{
+        margin: 0 auto;
+        padding: 20px 10px;
     }
     .sponsore-section{
         flex-direction: column;
