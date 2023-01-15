@@ -121,7 +121,9 @@ nav ul li a{
     top: -70px;
     left: -40px;
 }
-/* media quary start here */
+/* -------------------------------
+ media quary start here 
+ ----------------------------------*/
 @media screen and (max-width:577px){
     .menu-bar{
         flex-direction: column;
@@ -162,5 +164,16 @@ nav ul li a{
     }
     .feature-section{
         flex-direction: column;
+    }
+    .feature-btn{
+        border: none;
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        background-color: tomato;
+        font-size: 1.5rem;
+        position: relative;
+        top: -50px;
+        left: 30%;
     }
 }
