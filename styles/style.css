@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    
+    background-color: rgb(117, 107, 107);
     font-family: 'Work Sans', sans-serif;
 }
 header{
@@ -169,6 +169,8 @@ nav ul li a{
 }
 /* -------------------------------
  media quary start here 
+ -------------------------------------
+ -----------------------------------
  ----------------------------------*/
 @media screen and (max-width:577px){
     header{
