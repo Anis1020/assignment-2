@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:gray;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    margin: 0px 100px 0px;
+    padding-top: 30px;
+    height: 100vh;
+    background-color: #fff;
+}
+.btn-primary{
+    background-color: tomato;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* menubar style start here */
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    display: inline;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.header-text{
+    width: 450px;
+    border: 1px solid;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+.header-text > h1, p, button{
+    margin-bottom: 20px;
+}
+
+/* media quary start here */
+@media screen and (max-width:577px){
+    .menu-bar{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+   
+}
