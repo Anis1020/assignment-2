@@ -84,6 +84,43 @@ nav ul li a{
 #light{
     color: rgb(145, 145, 55);
 }
+.feature-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 10px;
+    
+    margin-bottom: 20px;
+}
+.feature-text{
+    width: 100%;
+   
+   height: 750px;
+   margin-bottom: 22px;
+}
+.feature-topic{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.feature-img{
+    width: 100%;
+}
+.feature-img img{
+    width: 100%;
+}
+.feature-btn{
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: tomato;
+    font-size: 1.5rem;
+    position: relative;
+    top: -70px;
+    left: -40px;
+}
 /* media quary start here */
 @media screen and (max-width:577px){
     .menu-bar{
@@ -122,5 +159,8 @@ nav ul li a{
     .explain-text button{
       position: relative;
       left: 35%;
+    }
+    .feature-section{
+        flex-direction: column;
     }
 }
