@@ -140,6 +140,28 @@ nav ul li a{
     padding: 30px;
     border-radius: 5px;
 }
+/* company data section */
+.data-section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.data-section table{
+    border: 1px solid tomato;
+}
+.data-section table td{
+    padding: 20px;
+
+}
+
+.our-company-data{
+    width: 400px;
+    text-align: center;
+}
 .our-sponsore{
     width: 400px;
     text-align: center;
@@ -241,6 +263,22 @@ nav ul li a{
         text-align: center;
         padding: 10px;
         border-radius: 5px;
+    }
+    .data-section{
+       flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .data-section table{
+        border: 1px solid tomato;
+    }
+    .data-section table td{
+        padding: 20px;
+        
     }
     .sponsore-section{
         flex-direction: column;
