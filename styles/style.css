@@ -84,6 +84,7 @@ nav ul li a{
 #light{
     color: rgb(145, 145, 55);
 }
+/* feature section start here */
 .feature-section{
     display: flex;
     justify-content: center;
@@ -121,10 +122,32 @@ nav ul li a{
     top: -70px;
     left: -40px;
 }
+/* fact section start here */
+.fact-section{
+    margin-left: 10%;
+}
+/* review section start here */
+.review-section{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 20px;
+    gap: 40px;
+}
+.review-section > div{
+    border: 1px solid tomato;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
 /* -------------------------------
  media quary start here 
  ----------------------------------*/
 @media screen and (max-width:577px){
+    header{
+       
+        height: auto;
+        background-color: #fff;
+    }
     .menu-bar{
         flex-direction: column;
         width: 100%;
@@ -147,7 +170,7 @@ nav ul li a{
     }
     .work-explain{
         flex-direction: column-reverse;
-        width: 80%;
+       
         padding: 30px 40px;
 
     }
@@ -175,5 +198,18 @@ nav ul li a{
         position: relative;
         top: -50px;
         left: 30%;
+    }
+    .review-section{
+        flex-direction: column; 
+        margin: 0 auto;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .review-section > div{
+        width: 200px;
+        border: 1px solid tomato;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
     }
 }
