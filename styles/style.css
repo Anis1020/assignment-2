@@ -10,7 +10,7 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 header{
-    margin: 0px 100px 0px;
+    /* margin: 0px 100px 0px; */
     padding: 30px 0px 30px;
     height: auto;
     
@@ -26,6 +26,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
+    margin: 20px 130px 50px;
 }
 nav ul{
     display: flex;
@@ -203,6 +205,8 @@ nav ul li a{
     .menu-bar{
         flex-direction: column;
         width: 100%;
+        margin: 0px 0px 0px;
+        
     }
     nav ul{
         flex-direction: column;
@@ -222,13 +226,13 @@ nav ul li a{
     }
     .work-explain{
         flex-direction: column-reverse;
-       
-        padding: 30px 40px;
+        margin: 0 auto;
+        padding: 30px 10px;
 
     }
     .img-explain{
         grid-template-columns: repeat(1, 1fr);
-       
+       width: 100%;
     }
     .explain-text > h1, p, button{
         margin-bottom: 10px;
@@ -290,5 +294,8 @@ nav ul li a{
     }
     .sponsore-section img{
         width: 150px;
+    }
+    .footer{
+        width: 100%;
     }
 }
