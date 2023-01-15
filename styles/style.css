@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:gray;
+    
     font-family: 'Work Sans', sans-serif;
 }
 header{
@@ -125,6 +125,7 @@ nav ul li a{
 /* fact section start here */
 .fact-section{
     margin-left: 10%;
+    width: 400px;
 }
 /* review section start here */
 .review-section{
@@ -137,6 +138,33 @@ nav ul li a{
     border: 1px solid tomato;
     text-align: center;
     padding: 30px;
+    border-radius: 5px;
+}
+.our-sponsore{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.sponsore-section{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 20px;
+    gap: 40px;
+    gap: 70px;
+}
+.sponsore-section img{
+    width: 150px;
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 188, 179);
+    padding: 20px;
     border-radius: 5px;
 }
 /* -------------------------------
@@ -203,7 +231,7 @@ nav ul li a{
         flex-direction: column; 
         margin: 0 auto;
         align-items: center;
-        margin-top: 30px;
+        margin: 30px 0px 20px;
     }
     .review-section > div{
         width: 200px;
@@ -211,5 +239,16 @@ nav ul li a{
         text-align: center;
         padding: 10px;
         border-radius: 5px;
+    }
+    .sponsore-section{
+        flex-direction: column;
+        justify-content: center;
+        margin: 40px 0px 20px;
+        align-items: center;
+        gap: 50px;
+        margin: 20px 0px 20px;
+    }
+    .sponsore-section img{
+        width: 150px;
     }
 }
